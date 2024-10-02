@@ -4,17 +4,22 @@ This project is an innovative, next-gen development prototyping platform built w
 
 ## Features
 
+- User authentication (login/register)
+- Welcome page for new users
+- "My Pens" view to manage and create new pens
 - Real-time HTML, CSS, and JavaScript editing
 - Live preview of the code
 - AI-assisted coding with Claude
 - Chat interface for interacting with the AI
 - Intelligent code suggestions and explanations
 - AI-Powered Code Completion
-- Custom onboarding tour
+- Advanced AI Code Analysis
+- Performance Scoring
 - User authentication and authorization
 - Subscription-based service with multiple tiers
 - Token usage tracking for billing purposes
 - Admin dashboard for monitoring platform statistics
+- User onboarding tutorial
 - Version control system
 - Collaborative coding
 - Customizable themes (light/dark mode)
@@ -22,14 +27,6 @@ This project is an innovative, next-gen development prototyping platform built w
 - Performance optimization
 - Accessibility improvements
 - Responsive design with Tailwind CSS
-
-## Technologies Used
-
-- React 18
-- Tailwind CSS
-- Node.js
-- Express.js (for backend services)
-- MongoDB (for data storage)
 
 ## Getting Started
 
@@ -71,6 +68,16 @@ npm start
 ```
 
 This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Usage
+
+1. Start at the welcome page and either register or login.
+2. You'll be taken to the "My Pens" page where you can view your existing pens or create a new one.
+3. Click on a pen or create a new one to enter the editor.
+4. Use the editor to write and preview your HTML, CSS, and JavaScript code.
+5. Interact with the AI assistant using the chat interface for coding help and suggestions.
+6. Use the "Back to My Pens" button to return to your list of pens.
+7. Logout when you're done.
 
 ## Development
 
